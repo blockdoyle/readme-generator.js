@@ -15,6 +15,8 @@ function renderLicenseBadge(license) {
       return '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)';
     case 'MIT':
       return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
+    default:
+      return '';
   }
 }
 
@@ -35,6 +37,8 @@ function renderLicenseLink(license) {
       return 'https://www.gnu.org/licenses/gpl-3.0';
     case 'MIT':
       return 'https://opensource.org/licenses/MIT';
+    default:
+      return '';
   }
 }
 
@@ -62,14 +66,14 @@ function generateMarkdown(data) {
   - [Usage](#usage)
   - [License](#license)
   ## Installation
-  ${data.installation}
+  \`\`\`${data.installation}\`\`\`
   ## Usage
-  ${data.usage}
+  \`\`\`${data.usage}\`\`\`
   ${renderLicenseSection(data.license)}
   ## Contributing
   Contributions are welcome. Please open an issue or pull request on GitHub to discuss.
   ## Tests
-  ${data.test}
+  \`\`\`${data.test}\`\`\`
   ## Questions
   If you have any questions, please contact me at ${data.email}.
   ### GitHub Profile
