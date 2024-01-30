@@ -2,6 +2,8 @@
   [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
   ## Description
   This command-line program will help generate good looking README files so that you can focus on what matters.
+  ![overview-image](./overview-image.png)
+  [Link](https://youtu.be/p6L-fbYT1mE) to demonstration video.
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
