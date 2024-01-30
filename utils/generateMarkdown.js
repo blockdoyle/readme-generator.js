@@ -62,14 +62,14 @@ function generateMarkdown(data) {
   - [Usage](#usage)
   - [License](#license)
   ## Installation
-  ${data.installation}
+  \`\`\`${data.installation}\`\`\`
   ## Usage
-  ${data.usage}
+  \`\`\`${data.usage}\`\`\`
   ${renderLicenseSection(data.license)}
   ## Contributing
   Contributions are welcome. Please open an issue or pull request on GitHub to discuss.
   ## Tests
-  ${data.test}
+  \`\`\`${data.test}\`\`\`
   ## Questions
   If you have any questions, please contact me at ${data.email}.
   ### GitHub Profile
