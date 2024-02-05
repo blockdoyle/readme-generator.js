@@ -74,13 +74,15 @@ function generateMarkdown(data) {
   \`\`\`${data.usage}\`\`\`
   ${renderLicenseSection(data.license)}
   ## Contributing
-  Contributions are welcome. Please open an issue or pull request on GitHub to discuss.
+  ${data.contribution}
   ## Tests
   \`\`\`${data.test}\`\`\`
   ## Questions
   If you have any questions, please contact me at ${data.email}.
   ### GitHub Profile
   [${data.github}](https://github.com/${data.github})
+  ### Email
+  [${data.email}](mailto:${data.email})
 `;
 }
 
